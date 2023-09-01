@@ -1,9 +1,5 @@
 import datetime
 
-import tkinter as tk
-from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
-from Crypto.Cipher import AES
 
 file_in = open(r"C:\Users\18805\Desktop\申请注册.txt", "rb")
 cipher_data = file_in.read()
